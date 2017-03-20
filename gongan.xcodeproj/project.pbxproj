@@ -14,18 +14,18 @@
 		C00F1C191DF59D0D0075397D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00F1C181DF59D0D0075397D /* Assets.xcassets */; };
 		C00F1C1C1DF59D0D0075397D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00F1C1A1DF59D0D0075397D /* LaunchScreen.storyboard */; };
 		C027CF071E70FDB50053CE8C /* MapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C027CF061E70FDB50053CE8C /* MapModel.m */; };
-		C027CF0B1E7143940053CE8C /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C027CF091E7143940053CE8C /* SearchTableViewCell.m */; };
-		C027CF0C1E7143940053CE8C /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C027CF0A1E7143940053CE8C /* SearchTableViewCell.xib */; };
 		C03DB12F1E68FA3A0086E3F3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C03DB12E1E68FA3A0086E3F3 /* libsqlite3.0.tbd */; };
-		C03DB13A1E6906490086E3F3 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DB1321E6906490086E3F3 /* CustomAnnotationView.m */; };
-		C03DB13B1E6906490086E3F3 /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DB1341E6906490086E3F3 /* CustomCalloutView.m */; };
-		C03DB13C1E6906490086E3F3 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DB1361E6906490086E3F3 /* SearchViewController.m */; };
-		C03DB13D1E6906490086E3F3 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03DB1371E6906490086E3F3 /* SearchViewController.xib */; };
-		C03DB13E1E6906490086E3F3 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C03DB1391E6906490086E3F3 /* UIView+Toast.m */; };
 		C03EA7EC1E4CA05600E54C50 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03EA7EB1E4CA05600E54C50 /* AMapFoundationKit.framework */; };
 		C03EA7EE1E4CA05D00E54C50 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03EA7ED1E4CA05D00E54C50 /* AMapSearchKit.framework */; };
 		C03EA7F01E4CA06600E54C50 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03EA7EF1E4CA06600E54C50 /* MAMapKit.framework */; };
 		C03EA7F21E4CA41300E54C50 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C03EA7F11E4CA41300E54C50 /* AMap.bundle */; };
+		C07096C31E7FD71500F5D98C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C07096C21E7FD71500F5D98C /* UIView+Toast.m */; };
+		C07096CD1E7FD77000F5D98C /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C07096C71E7FD77000F5D98C /* CustomAnnotationView.m */; };
+		C07096CE1E7FD77000F5D98C /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C07096C91E7FD77000F5D98C /* CustomCalloutView.m */; };
+		C07096CF1E7FD77000F5D98C /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C07096CB1E7FD77000F5D98C /* SearchTableViewCell.m */; };
+		C07096D01E7FD77000F5D98C /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07096CC1E7FD77000F5D98C /* SearchTableViewCell.xib */; };
+		C07096D41E7FD79500F5D98C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07096D21E7FD79500F5D98C /* SearchViewController.m */; };
+		C07096D51E7FD79500F5D98C /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07096D31E7FD79500F5D98C /* SearchViewController.xib */; };
 		C0808FA91E2E4EC400B0F499 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0808FA81E2E4EC400B0F499 /* OpenGLES.framework */; };
 		C0808FAB1E2E4ED500B0F499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0808FAA1E2E4ED500B0F499 /* UIKit.framework */; };
 		C0808FAD1E2E4EDD00B0F499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0808FAC1E2E4EDD00B0F499 /* Foundation.framework */; };
@@ -40,7 +40,6 @@
 		C0808FBF1E2E507D00B0F499 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C0808FBE1E2E507D00B0F499 /* libz.tbd */; };
 		C0808FC11E2E508800B0F499 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C0808FC01E2E508800B0F499 /* libstdc++.6.0.9.tbd */; };
 		C0808FC31E2E509300B0F499 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C0808FC21E2E509300B0F499 /* libc++.tbd */; };
-		C08CA6531E67186A00648E02 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C08CA6521E67186A00648E02 /* SQLiteManager.m */; };
 		C08CA6611E67189A00648E02 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = C08CA6561E67189A00648E02 /* FMDatabase+InMemoryOnDiskIO.m */; };
 		C08CA6621E67189A00648E02 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C08CA6581E67189A00648E02 /* FMDatabase.m */; };
 		C08CA6631E67189A00648E02 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C08CA65A1E67189A00648E02 /* FMDatabaseAdditions.m */; };
@@ -62,24 +61,24 @@
 		C00F1C1D1DF59D0D0075397D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C027CF051E70FDB50053CE8C /* MapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapModel.h; sourceTree = "<group>"; };
 		C027CF061E70FDB50053CE8C /* MapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapModel.m; sourceTree = "<group>"; };
-		C027CF081E7143940053CE8C /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
-		C027CF091E7143940053CE8C /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
-		C027CF0A1E7143940053CE8C /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		C03DB12E1E68FA3A0086E3F3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		C03DB1301E68FD500086E3F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		C03DB1311E6906490086E3F3 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
-		C03DB1321E6906490086E3F3 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
-		C03DB1331E6906490086E3F3 /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
-		C03DB1341E6906490086E3F3 /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
-		C03DB1351E6906490086E3F3 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
-		C03DB1361E6906490086E3F3 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		C03DB1371E6906490086E3F3 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
-		C03DB1381E6906490086E3F3 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
-		C03DB1391E6906490086E3F3 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		C03EA7EB1E4CA05600E54C50 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = gongan/AMapFoundationKit.framework; sourceTree = "<group>"; };
 		C03EA7ED1E4CA05D00E54C50 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = gongan/AMapSearchKit.framework; sourceTree = "<group>"; };
 		C03EA7EF1E4CA06600E54C50 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = gongan/MAMapKit.framework; sourceTree = "<group>"; };
 		C03EA7F11E4CA41300E54C50 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = gongan/MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		C07096C11E7FD71500F5D98C /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		C07096C21E7FD71500F5D98C /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		C07096C61E7FD77000F5D98C /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		C07096C71E7FD77000F5D98C /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		C07096C81E7FD77000F5D98C /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
+		C07096C91E7FD77000F5D98C /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
+		C07096CA1E7FD77000F5D98C /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
+		C07096CB1E7FD77000F5D98C /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		C07096CC1E7FD77000F5D98C /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		C07096D11E7FD79500F5D98C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C07096D21E7FD79500F5D98C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C07096D31E7FD79500F5D98C /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		C0808FA81E2E4EC400B0F499 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C0808FAA1E2E4ED500B0F499 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0808FAC1E2E4EDD00B0F499 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,8 +93,6 @@
 		C0808FBE1E2E507D00B0F499 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C0808FC01E2E508800B0F499 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		C0808FC21E2E509300B0F499 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		C08CA6511E67186A00648E02 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
-		C08CA6521E67186A00648E02 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
 		C08CA6551E67189A00648E02 /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
 		C08CA6561E67189A00648E02 /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
 		C08CA6571E67189A00648E02 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -160,23 +157,12 @@
 		C00F1C0B1DF59D0D0075397D /* gongan */ = {
 			isa = PBXGroup;
 			children = (
-				C027CF081E7143940053CE8C /* SearchTableViewCell.h */,
-				C027CF091E7143940053CE8C /* SearchTableViewCell.m */,
-				C027CF0A1E7143940053CE8C /* SearchTableViewCell.xib */,
+				C07096C51E7FD77000F5D98C /* View */,
+				C07096C41E7FD71B00F5D98C /* Controller */,
+				C07096C01E7FD71500F5D98C /* Category */,
 				C027CF051E70FDB50053CE8C /* MapModel.h */,
 				C027CF061E70FDB50053CE8C /* MapModel.m */,
-				C03DB1311E6906490086E3F3 /* CustomAnnotationView.h */,
-				C03DB1321E6906490086E3F3 /* CustomAnnotationView.m */,
-				C03DB1331E6906490086E3F3 /* CustomCalloutView.h */,
-				C03DB1341E6906490086E3F3 /* CustomCalloutView.m */,
-				C03DB1351E6906490086E3F3 /* SearchViewController.h */,
-				C03DB1361E6906490086E3F3 /* SearchViewController.m */,
-				C03DB1371E6906490086E3F3 /* SearchViewController.xib */,
-				C03DB1381E6906490086E3F3 /* UIView+Toast.h */,
-				C03DB1391E6906490086E3F3 /* UIView+Toast.m */,
 				C08CA6541E67189A00648E02 /* FMDB */,
-				C08CA6511E67186A00648E02 /* SQLiteManager.h */,
-				C08CA6521E67186A00648E02 /* SQLiteManager.m */,
 				C00F1C0F1DF59D0D0075397D /* AppDelegate.h */,
 				C00F1C101DF59D0D0075397D /* AppDelegate.m */,
 				C00F1C121DF59D0D0075397D /* ViewController.h */,
@@ -197,6 +183,39 @@
 				C00F1C0D1DF59D0D0075397D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C07096C01E7FD71500F5D98C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C07096C11E7FD71500F5D98C /* UIView+Toast.h */,
+				C07096C21E7FD71500F5D98C /* UIView+Toast.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C07096C41E7FD71B00F5D98C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C07096D11E7FD79500F5D98C /* SearchViewController.h */,
+				C07096D21E7FD79500F5D98C /* SearchViewController.m */,
+				C07096D31E7FD79500F5D98C /* SearchViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C07096C51E7FD77000F5D98C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C07096C61E7FD77000F5D98C /* CustomAnnotationView.h */,
+				C07096C71E7FD77000F5D98C /* CustomAnnotationView.m */,
+				C07096C81E7FD77000F5D98C /* CustomCalloutView.h */,
+				C07096C91E7FD77000F5D98C /* CustomCalloutView.m */,
+				C07096CA1E7FD77000F5D98C /* SearchTableViewCell.h */,
+				C07096CB1E7FD77000F5D98C /* SearchTableViewCell.m */,
+				C07096CC1E7FD77000F5D98C /* SearchTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C0808FA71E2E4EC400B0F499 /* Frameworks */ = {
@@ -304,10 +323,10 @@
 			files = (
 				C03EA7F21E4CA41300E54C50 /* AMap.bundle in Resources */,
 				C00F1C1C1DF59D0D0075397D /* LaunchScreen.storyboard in Resources */,
+				C07096D51E7FD79500F5D98C /* SearchViewController.xib in Resources */,
 				C00F1C191DF59D0D0075397D /* Assets.xcassets in Resources */,
-				C03DB13D1E6906490086E3F3 /* SearchViewController.xib in Resources */,
 				C00F1C171DF59D0D0075397D /* Main.storyboard in Resources */,
-				C027CF0C1E7143940053CE8C /* SearchTableViewCell.xib in Resources */,
+				C07096D01E7FD77000F5D98C /* SearchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,22 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03DB13B1E6906490086E3F3 /* CustomCalloutView.m in Sources */,
-				C03DB13C1E6906490086E3F3 /* SearchViewController.m in Sources */,
+				C07096CD1E7FD77000F5D98C /* CustomAnnotationView.m in Sources */,
 				C08CA6611E67189A00648E02 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				C07096C31E7FD71500F5D98C /* UIView+Toast.m in Sources */,
 				C00F1C141DF59D0D0075397D /* ViewController.m in Sources */,
-				C03DB13E1E6906490086E3F3 /* UIView+Toast.m in Sources */,
 				C00F1C111DF59D0D0075397D /* AppDelegate.m in Sources */,
 				C08CA6621E67189A00648E02 /* FMDatabase.m in Sources */,
 				C08CA6661E67189A00648E02 /* FMResultSet.m in Sources */,
+				C07096D41E7FD79500F5D98C /* SearchViewController.m in Sources */,
+				C07096CE1E7FD77000F5D98C /* CustomCalloutView.m in Sources */,
 				C00F1C0E1DF59D0D0075397D /* main.m in Sources */,
-				C027CF0B1E7143940053CE8C /* SearchTableViewCell.m in Sources */,
 				C027CF071E70FDB50053CE8C /* MapModel.m in Sources */,
 				C08CA6641E67189A00648E02 /* FMDatabasePool.m in Sources */,
 				C08CA6631E67189A00648E02 /* FMDatabaseAdditions.m in Sources */,
-				C03DB13A1E6906490086E3F3 /* CustomAnnotationView.m in Sources */,
-				C08CA6531E67186A00648E02 /* SQLiteManager.m in Sources */,
 				C08CA6651E67189A00648E02 /* FMDatabaseQueue.m in Sources */,
+				C07096CF1E7FD77000F5D98C /* SearchTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
